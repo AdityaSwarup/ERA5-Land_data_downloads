@@ -15,8 +15,7 @@ RDRS_v2.1_P_HU_09944|	Specific humidity	|Will need to be [calculated](https://co
 RDRS_v2.1_P_P0_SFC	|Surface pressure	|surface_pressure	
 RDRS_v2.1_P_FB_SFC	|Downward solar flux	|surface_solar_radiation_downwards
 RDRS_v2.1_P_TT_1.5m	|Air temperature	|2m_temperature	
-RDRS_v2.1_P_UU_10m	|U-component of the wind (along the grid X axis)	|10m_u_component_of_wind
-RDRS_v2.1_P_UUC_10m	|corrected U-component of the wind (along West-East direction)	|10m_u_component_of_wind (no corrected version)
-RDRS_v2.1_P_UVC_10m |	Wind Modulus (derived using UU and VV)	|Must be calculated with modulus formula
-RDRS_v2.1_P_VV_10m	|V-component of the wind (along the grid Y axis)	|10m_v_component_of_wind
-RDRS_v2.1_P_VVC_10m	|corrected V-component of the wind (along South-North direction)	|10m_v_component_of_wind (no corrected version)
+RDRS_v2.1_P_UUC_10m	|corrected U-component of the wind (along West-East direction)	|10m_u_component_of_wind (this is the corrected version)
+RDRS_v2.1_P_VVC_10m	|corrected V-component of the wind (along South-North direction)	|10m_v_component_of_wind (this is the corrected version)
+RDRS_v2.1_P_UVC_10m |	Wind Modulus (derived using UU and VV)	|Must be calculated with modulus formula which is as follows, $\sqrt{u^2 + v^2}$ which gives us the wind speed. 
+
